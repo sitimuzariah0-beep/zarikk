@@ -1,0 +1,81 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #CDB4FF, #F4C2E1);
+  color: #3B2E5A;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: #FFF7FB;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 12px;
+  border: 1px solid #CDB4FF;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #7B5CF0;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+header {
+  background: #7B5CF0;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.logout-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #FFF7FB;
+  width: 280px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
